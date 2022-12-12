@@ -11,7 +11,7 @@ export default defineConfig({
     devSourcemap: true,
     postcss: {
       map: true,
-      syntax: postcssScss,
+      parser: postcssScss,
       plugins: [
         autoprefixer({}),
         postcssNesting({})
