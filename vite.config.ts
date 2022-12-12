@@ -14,7 +14,7 @@ export default defineConfig({
       syntax: postcssScss,
       plugins: [
         autoprefixer({}),
-        postcssNesting
+        postcssNesting({})
       ]
     }
   },
